@@ -1,8 +1,8 @@
 class Vlt < Formula
   desc "Profile manager and transparent launcher for HashiCorp Vault"
   homepage "https://github.com/floydya/vlt"
-  url "https://github.com/floydya/vlt/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "6273945813a161caddff833ccfbf8752862111b53bdbbc657c6f6e115305cc4e"
+  url "https://github.com/floydya/vlt/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "2a6a580397b815d079b24f07866103bad44bf75d8af8b256f482ee03b5942973"
   license "MIT"
 
   depends_on "go" => :build
