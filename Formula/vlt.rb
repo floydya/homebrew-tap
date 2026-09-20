@@ -5,8 +5,8 @@ class Vlt < Formula
   sha256 "6273945813a161caddff833ccfbf8752862111b53bdbbc657c6f6e115305cc4e"
   license "MIT"
 
-  depends_on :macos
   depends_on "go" => :build
+  depends_on :macos
 
   def fetch
     system "go", "mod", "download"
